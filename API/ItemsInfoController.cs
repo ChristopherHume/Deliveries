@@ -28,7 +28,7 @@ namespace Deliveries.API
         {
 
             //HttpClient httpClient = new HttpClient();
-
+            //Test
             //String json = httpClient.GetStringAsync("https://localhost:????/api/itemsinfo")
 
             return await _context.Item.ToListAsync();
